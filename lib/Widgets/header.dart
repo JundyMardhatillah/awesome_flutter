@@ -8,7 +8,7 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding:
-          const EdgeInsets.only(left: 0, top: 30, right: 24, bottom: 0),
+          const EdgeInsets.only(left: 0, top: 50, right: 24, bottom: 0),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
@@ -16,9 +16,10 @@ class Header extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
-                padding: const EdgeInsets.only(left: 22, top: 0, right: 24, bottom: 0),
+                padding: const EdgeInsets.only(
+                    left: 22, top: 0, right: 24, bottom: 0),
                 child: Text(
-                  "One Direction Album",
+                  "Estate",
                   style: GoogleFonts.poppins(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
@@ -26,7 +27,8 @@ class Header extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 23, top: 0, right: 24, bottom: 0),
+                padding: const EdgeInsets.only(
+                    left: 23, top: 0, right: 24, bottom: 0),
                 child: Text(
                   "Best Discovery Ever",
                   style: GoogleFonts.poppins(

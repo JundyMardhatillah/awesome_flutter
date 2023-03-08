@@ -16,7 +16,7 @@ class BestAgents extends StatelessWidget {
             child: Text(
               "Best Agents",
               style: GoogleFonts.poppins(
-                  fontSize: 23, fontWeight: FontWeight.bold),
+                  fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ),
           const SizedBox(height: 16),

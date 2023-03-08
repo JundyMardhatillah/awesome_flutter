@@ -3,6 +3,7 @@ import 'Widgets/header.dart';
 import 'Widgets/categories.dart';
 import 'Widgets/staffpicks.dart';
 import 'Widgets/best_agents.dart';
+import 'Widgets/cities.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -10,8 +11,8 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 204, 204, 204),
-      body: SafeArea(
+      backgroundColor: Color.fromARGB(255, 246, 246, 246),
+      body: SingleChildScrollView(
         child: Stack(
           children: [
             Column(
@@ -25,6 +26,8 @@ class HomePage extends StatelessWidget {
                 StaffPicks(),
                 // best agents
                 BestAgents(),
+                // cities
+                Cities(),
               ],
             ),
           ],
