@@ -12,7 +12,7 @@ class BestAgents extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsets.only(top: 30, bottom: 10),
+            padding: const EdgeInsets.only(top: 30, bottom: 11),
             child: Text(
               "Best Agents",
               style: GoogleFonts.poppins(
